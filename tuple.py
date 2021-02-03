@@ -43,26 +43,6 @@ for i in inp_T:
     k[j]=int(k[j])
   new.append(tuple(k))
 
-"""
-red = []
-for i in range(len(new) - 1):
-    r = redundant(new[i], new[i+1])
-    if r == 1:
-        red.append(new[i+1])
-
-R = []
-for x in new:
-    if x not in red:
-        R.append(x)
-res = [] 
-[res.append(x) for x in R if x not in res] 
-
-print(res)
-
-R_Sorted = sorting(res)
-print(R_Sorted)
-"""
-
 new_t = new[:]
 
 #redundancy
