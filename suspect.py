@@ -23,7 +23,7 @@ for length in split_len:
         temp.append(list_pair[index])
         index += 1
     splitted.append(temp)
-
+print(splitted)
 for i in splitted:
     for x, y in i:
         print(x + "" + y, end=' ')
