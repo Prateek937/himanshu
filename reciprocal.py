@@ -8,7 +8,9 @@ try:
     no_input(string)
 except IOError as err:
     print(err)
-
+    print("Execution completed!")
+    exit()
+    
 l1 = list(string.split(" "))
 for i in l1:
     try:
