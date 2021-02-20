@@ -17,7 +17,7 @@ def divide(a,b):
 	else:
 		quotient=0
 		remainder=(a)
-	return print(quotient,remainder)
+	return (quotient,remainder)
 
 def isdivisible(a,b):
     if divide(a,b)[1] == 0:
