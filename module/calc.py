@@ -18,7 +18,7 @@ def validate(q):
             return False, "no"
     else:
         return False, "no"
-
+#nothing
 def ins(text):
     b, c = validate(text)
     if b and c == "double": 
