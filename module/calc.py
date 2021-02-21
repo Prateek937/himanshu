@@ -87,7 +87,7 @@ elif(choice=='4'):
 elif(choice=='5'):
     text = input("Enter two numbers to perform power:")
     a, b = ins(text)
-    print(adv_ops.power(float(a),float(b)))
+    print(adv_ops.pow(float(a),float(b)))
 elif(choice=='6'):
     text = input("Enter a numbers to perform factorial:")
     a = ins(text)
