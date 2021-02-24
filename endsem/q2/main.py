@@ -29,14 +29,12 @@ try:
         return lines_list, len(lines_list[0]), len(lines_list)
 
     def key_validate(key_list, N):
-        print("1")
         print(len(key_list))
         if len(key_list) != N:
             print("Invalid key")
             exit()
         else:
             for x in key_list:
-                print("2")
                 if type(x) == int:
                     pass
 
@@ -45,7 +43,7 @@ try:
         key_list = list(map(float , key_list.replace("[", "").replace("]", "").split(',')))
         key_validate(key_list, 5)
     except:
-        print("Invalid key1")
+        print("Invalid key")
         exit()
     lines, N, M = readtxt("lists.txt")
     print(type(lines))
